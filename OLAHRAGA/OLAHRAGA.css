@@ -1,0 +1,556 @@
+body {
+  margin: 0;
+  height: 97vh;
+  background-image: linear-gradient(21deg, rgba(64, 83, 206, 0.3697003234675773) 68%, rgba(255, 206, 196, 0.5) 163%),linear-gradient(163deg, rgba(49, 146, 170, 0.07944489965716128) 86%, rgba(239, 112, 138, 0.5) 40%),linear-gradient(30deg, rgba(76, 79, 173, 0.6173675716587805) 22%, rgba(237, 106, 134, 0.5) 169%),linear-gradient(48deg, rgba(31, 85, 147, 0.7323890641868473) 64%, rgba(247, 126, 132, 0.5) 43%); background-blend-mode: overlay,multiply,color,normal;
+  font-family: roboto;
+}
+
+.container {
+	width: 1245px;
+	height: 545px;
+	background-color: white;
+	margin: 20px auto;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.20);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.70);
+	max-width: 1245px;
+	display: flex;
+}
+
+.right {
+	flex: 1 1 auto;
+	background-color: #f2ebf5;
+	padding: 30px;
+	border-radius: 0 3px 3px 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.left {
+	flex: 0 0 200px;
+	width: 150px;
+	height: 100%;
+	background-color: white;
+	border-radius: 3px 0 0 3px;
+}
+
+img {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.satu {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+	color: gray;
+}
+
+i {
+	margin-left: -15px;
+	font-size: 18px;
+	color: gray;
+}
+
+ul {
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+	font-weight: bold;
+	color: gray;           
+	list-style-type: none;
+}
+
+.Olahraga {
+	color: purple;
+}
+
+.Pakaian, .Beranda, .Makanan, .Nature {
+	transition: 0.3s;
+}
+
+.Pakaian:hover {
+	color: purple;
+}
+
+.Beranda:hover {
+	color: purple;
+}
+
+.Makanan:hover {
+	color: purple;
+}
+
+.Nature:hover {
+	color: purple;
+}
+
+.dua {
+	color: gray;
+}
+
+.tiga {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.dua {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.XXV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 0px;
+	position: absolute;
+	display: flex;
+	margin-top: 0px;
+}
+
+.XXVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(RAKET-TENIS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link25 {
+	text-decoration: none;
+}
+
+.link25:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXVI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXVIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BOLA-TENIS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXVIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXVI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link26 {
+	text-decoration: none;
+}
+
+.link26:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXVII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXVIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BOLA-KAKI-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXVIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXVII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link27 {
+	text-decoration: none;
+}
+
+.link27:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXVIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXVIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(DUMBELL-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXVIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXVIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link28 {
+	text-decoration: none;
+}
+
+.link28:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXIX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-BOLA-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXIX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link29 {
+	text-decoration: none;
+}
+
+.link29:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BET-TENIS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link30 {
+	text-decoration: none;
+}
+
+.link30:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.XXXIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BET-TENIS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link31 {
+	text-decoration: none;
+}
+
+.link31:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-RODA-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link32 {
+	text-decoration: none;
+}
+
+.link32:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(RING-BASKET-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link33 {
+	text-decoration: none;
+}
+
+.link33:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXIV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXIVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BOLA-RUGBY-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXIVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXIV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link34 {
+	text-decoration: none;
+}
+
+.link34:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BOLA-GOLF-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link35 {
+	text-decoration: none;
+}
+
+.link35:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXVI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXVIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(COCK-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXVIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXVI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link36 {
+	text-decoration: none;
+}
+
+.link36:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.Berandaa {
+	color: gray;
+	text-decoration: none;
+}
+
+.Pakaiann {
+	color: gray;
+	text-decoration: none;
+}
+
+.Makanann {
+	color: gray;
+	text-decoration: none;
+}
+
+.Naturee {
+	color: gray;
+	text-decoration: none;
+}

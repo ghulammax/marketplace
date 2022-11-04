@@ -1,0 +1,556 @@
+body {
+  margin: 0;
+  height: 97vh;
+  background-image: linear-gradient(21deg, rgba(64, 83, 206, 0.3697003234675773) 68%, rgba(255, 206, 196, 0.5) 163%),linear-gradient(163deg, rgba(49, 146, 170, 0.07944489965716128) 86%, rgba(239, 112, 138, 0.5) 40%),linear-gradient(30deg, rgba(76, 79, 173, 0.6173675716587805) 22%, rgba(237, 106, 134, 0.5) 169%),linear-gradient(48deg, rgba(31, 85, 147, 0.7323890641868473) 64%, rgba(247, 126, 132, 0.5) 43%); background-blend-mode: overlay,multiply,color,normal;
+  font-family: roboto;
+}
+
+.container {
+	width: 1245px;
+	height: 545px;
+	background-color: white;
+	margin: 20px auto;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.20);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.70);
+	max-width: 1245px;
+	display: flex;
+}
+
+.right {
+	flex: 1 1 auto;
+	background-color: #f2ebf5;
+	padding: 30px;
+	border-radius: 0 3px 3px 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.left {
+	flex: 0 0 200px;
+	width: 150px;
+	height: 100%;
+	background-color: white;
+	border-radius: 3px 0 0 3px;
+}
+
+img {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.satu {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+	color: gray;
+}
+
+i {
+	margin-left: -15px;
+	font-size: 18px;
+	color: gray;
+}
+
+ul {
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+	font-weight: bold;
+	color: gray;           
+	list-style-type: none;
+}
+
+.Pakaian {
+	color: purple;
+}
+
+.Makanan, .Beranda, .Olahraga, .Nature {
+	transition: 0.3s;
+}
+
+.Makanan:hover {
+	color: purple;
+}
+
+.Beranda:hover {
+	color: purple;
+}
+
+.Olahraga:hover {
+	color: purple;
+}
+
+.Nature:hover {
+	color: purple;
+}
+
+.dua {
+	color: gray;
+}
+
+.tiga {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.dua {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.XIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 0px;
+	position: absolute;
+	display: flex;
+	margin-top: 0px;
+}
+
+.XIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KAOS-BIRU-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link13 {
+	text-decoration: none;
+}
+
+.link13:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XIV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XIVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(JAS-HITAM-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XIV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link14 {
+	text-decoration: none;
+}
+
+.link14:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KAOS-PUTIH-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link15 {
+	text-decoration: none;
+}
+
+.link15:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XVI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XVIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(HOODIE-PUTIH-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XVIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XVI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link16 {
+	text-decoration: none;
+}
+
+.link16:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XVII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XVIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-HITAM-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XVIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XVII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link17 {
+	text-decoration: none;
+}
+
+.link17:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XVIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XVIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KEMEJA-HITAM-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XVIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XVIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link18 {
+	text-decoration: none;
+}
+
+.link18:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XIX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.XIXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-PINK-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XIX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link19 {
+	text-decoration: none;
+}
+
+.link19:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-BIRU-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link20 {
+	text-decoration: none;
+}
+
+.link20:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KEMEJA-BIRU-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link21 {
+	text-decoration: none;
+}
+
+.link21:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(TOPI-PUTIH-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link22 {
+	text-decoration: none;
+}
+
+.link22:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(TOPI-COKLAT-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link23 {
+	text-decoration: none;
+}
+
+.link23:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXIV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(TOPI-MERAH-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXIV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link24 {
+	text-decoration: none;
+}
+
+.link24:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.Berandaa {
+	color: gray;
+	text-decoration: none;
+}
+
+.Makanann {
+	color: gray;
+	text-decoration: none;
+}
+
+.Olahragaa {
+	color: gray;
+	text-decoration: none;
+}
+
+.Naturee {
+	color: gray;
+	text-decoration: none;
+}

@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  height: 97vh;
+  background-image: linear-gradient(21deg, rgba(64, 83, 206, 0.3697003234675773) 68%, rgba(255, 206, 196, 0.5) 163%),linear-gradient(163deg, rgba(49, 146, 170, 0.07944489965716128) 86%, rgba(239, 112, 138, 0.5) 40%),linear-gradient(30deg, rgba(76, 79, 173, 0.6173675716587805) 22%, rgba(237, 106, 134, 0.5) 169%),linear-gradient(48deg, rgba(31, 85, 147, 0.7323890641868473) 64%, rgba(247, 126, 132, 0.5) 43%); background-blend-mode: overlay,multiply,color,normal;
+  font-family: roboto;
+}
+
+.container {
+	width: 1245px;
+	height: 545px;
+	background-color: white;
+	margin: 20px auto;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.20);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.70);
+	max-width: 1245px;
+	display: flex;
+}
+
+.right {
+	flex: 1 1 auto;
+	background-color: #f2ebf5;
+	padding: 30px;
+	border-radius: 0 3px 3px 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.left {
+	flex: 0 0 200px;
+	width: 150px;
+	height: 100%;
+	background-color: white;
+	border-radius: 3px 0 0 3px;
+}
+
+img {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.satu {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+	color: gray;
+}
+
+i {
+	margin-left: -15px;
+	font-size: 18px;
+	color: gray;
+}
+
+ul {
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+	font-weight: bold;
+	color: gray;           
+	list-style-type: none;
+}
+
+.Beranda, .Pakaian, .Olahraga, .Nature {
+	transition: 0.3s;
+}
+
+.Beranda:hover {
+	color: purple;
+}
+
+.Pakaian:hover {
+	color: purple;
+}
+
+.Olahraga:hover {
+	color: purple;
+}
+
+.Nature:hover {
+	color: purple;
+}
+
+.Makanan {
+	color: purple;
+}
+
+.dua {
+	color: gray;
+}
+
+.tiga {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.dua {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.container1 {
+	width: 980px;
+	height: 390px;
+	background-color: white;
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.container2 {
+	height: 390px;
+	width: 390px;
+	background-color: white;
+	position: absolute;
+}
+
+.container3 {
+	height: 390px;
+	width: 590px;
+	background-color: white;
+	position: relative;
+	overflow: scroll;
+}
+
+
+.garis {
+	width: 565px;
+	height: 7px;
+	background-color: purple;
+}
+
+.container4 {
+	width: 380px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	font-size: 16px;
+}
+
+.container5 {
+	width: 205px;
+	height: 290px;
+	background-color: #fbf8fd;
+	position: absolute;
+	box-shadow: 0px 0.5px 3px 0.5px #c0c0bf;
+	border-radius: 5px;
+}
+
+.empat {
+	color: black;
+	font-size: 14px;
+	font-family: roboto;
+	font-weight: normal;
+}
+
+.lima {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.enam {
+	color: black;
+	font-size: 22px;
+	font-weight: 600;
+	padding: 2px;
+	
+}
+
+.Berandaa {
+	color: gray;
+	text-decoration: none;
+}
+
+.Pakaiann {
+	color: gray;
+	text-decoration: none;
+}
+
+.Olahragaa {
+	color: gray;
+	text-decoration: none;
+}
+
+.Naturee {
+	color: gray;
+	text-decoration: none;
+}

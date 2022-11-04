@@ -1,0 +1,1864 @@
+body {
+  margin: 0;
+  height: 97vh;
+  background-image: linear-gradient(21deg, rgba(64, 83, 206, 0.3697003234675773) 68%, rgba(255, 206, 196, 0.5) 163%),linear-gradient(163deg, rgba(49, 146, 170, 0.07944489965716128) 86%, rgba(239, 112, 138, 0.5) 40%),linear-gradient(30deg, rgba(76, 79, 173, 0.6173675716587805) 22%, rgba(237, 106, 134, 0.5) 169%),linear-gradient(48deg, rgba(31, 85, 147, 0.7323890641868473) 64%, rgba(247, 126, 132, 0.5) 43%); background-blend-mode: overlay,multiply,color,normal;
+  font-family: roboto;
+}
+
+.container {
+	width: 1245px;
+	height: 1945px;
+	background-color: white;
+	margin: 20px auto;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.20);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.70);
+	max-width: 1245px;
+	display: flex;
+}
+
+.right {
+	width: 1095px;
+	height: 1884px;
+	background-color: #f2ebf5;
+	padding: 30px;
+	border-radius: 0 3px 3px 0;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+	position: relative;
+	margin-left: 210px;
+}
+
+.left {
+	flex: 0 0 200px;
+	width: 200px;
+	height: 100%;
+	background-color: white;
+	border-radius: 3px 0 0 3px;
+	position: fixed;
+	z-index: 99;
+}
+
+img {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.satu {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+	color: gray;
+}
+
+i {
+	margin-left: -15px;
+	font-size: 18px;
+	color: gray;
+}
+
+ul {
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+	font-weight: bold;
+	color: gray;           
+	list-style-type: none;
+}
+
+.Beranda {
+	color: purple;
+}
+
+.Pakaian, .Makanan, .Olahraga, .Nature {
+	transition: 0.3s;
+}
+
+.Pakaian:hover {
+	color: purple;
+}
+
+.Makanan:hover {
+	color: purple;
+}
+
+.Olahraga:hover {
+	color: purple;
+}
+
+.Nature:hover {
+	color: purple;
+}
+
+.dua {
+	color: gray;
+}
+
+.tiga {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.dua {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.I {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 18px;
+	position: absolute;
+}
+
+.Ia {
+	width: 150px;
+	height: 150px;
+	background-image: url(BATAGOR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.Ib {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.I:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link1 {
+	text-decoration: none;
+}
+
+.link1:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.II {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.IIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(AYAM-BAKAR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.IIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.II:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link2 {
+	text-decoration: none;
+}
+
+.link2:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.III {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+
+}
+
+.IIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SAMOSA-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.IIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.III:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link3 {
+	text-decoration: none;
+}
+
+.link3:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.IV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.IVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KARI-AYAM-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.IVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.IV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link4 {
+	text-decoration: none;
+}
+
+.link4:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.V {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.Va {
+	width: 150px;
+	height: 150px;
+	background-image: url(BURGER-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.Vb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.V:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link5 {
+	text-decoration: none;
+}
+
+.link5:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.VI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.VIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(JERUK-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.VIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.VI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link6 {
+	text-decoration: none;
+}
+
+.link6:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.VII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.VIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(OMELET-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.VIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.VII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link7 {
+	text-decoration: none;
+}
+
+.link7:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.VIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.VIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(NASGOR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.VIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.VIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link8 {
+	text-decoration: none;
+}
+
+.link8:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.IX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.IXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BAKSO-BAKAR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.IXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.IX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link9 {
+	text-decoration: none;
+}
+
+.link9:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.X {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.Xa {
+	width: 150px;
+	height: 150px;
+	background-image: url(WAFFLE-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.Xb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.X:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link10 {
+	text-decoration: none;
+}
+
+.link10:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(ROTI-TELUR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link11 {
+	text-decoration: none;
+}
+
+.link11:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(DONAT-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link12 {
+	text-decoration: none;
+}
+
+.link12:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.XIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KAOS-BIRU-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link13 {
+	text-decoration: none;
+}
+
+.link13:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XIV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XIVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(JAS-HITAM-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XIV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link14 {
+	text-decoration: none;
+}
+
+.link14:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KAOS-PUTIH-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link15 {
+	text-decoration: none;
+}
+
+.link15:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XVI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XVIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(HOODIE-PUTIH-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XVIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XVI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link16 {
+	text-decoration: none;
+}
+
+.link16:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XVII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XVIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-HITAM-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XVIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XVII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link17 {
+	text-decoration: none;
+}
+
+.link17:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XVIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XVIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KEMEJA-HITAM-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XVIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XVIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link18 {
+	text-decoration: none;
+}
+
+.link18:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XIX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.XIXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-PINK-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XIX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link19 {
+	text-decoration: none;
+}
+
+.link19:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-BIRU-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link20 {
+	text-decoration: none;
+}
+
+.link20:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KEMEJA-BIRU-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link21 {
+	text-decoration: none;
+}
+
+.link21:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(TOPI-PUTIH-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link22 {
+	text-decoration: none;
+}
+
+.link22:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(TOPI-COKLAT-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link23 {
+	text-decoration: none;
+}
+
+.link23:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXIV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(TOPI-MERAH-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXIV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link24 {
+	text-decoration: none;
+}
+
+.link24:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.XXVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(RAKET-TENIS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link25 {
+	text-decoration: none;
+}
+
+.link25:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXVI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXVIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BOLA-TENIS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXVIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXVI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link26 {
+	text-decoration: none;
+}
+
+.link26:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXVII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXVIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BOLA-KAKI-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXVIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXVII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link27 {
+	text-decoration: none;
+}
+
+.link27:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXVIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXVIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(DUMBELL-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXVIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXVIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link28 {
+	text-decoration: none;
+}
+
+.link28:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXIX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXIXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-BOLA-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXIXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXIX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link29 {
+	text-decoration: none;
+}
+
+.link29:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BET-TENIS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link30 {
+	text-decoration: none;
+}
+
+.link30:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.XXXIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BET-TENIS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link31 {
+	text-decoration: none;
+}
+
+.link31:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SEPATU-RODA-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link32 {
+	text-decoration: none;
+}
+
+.link32:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(RING-BASKET-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link33 {
+	text-decoration: none;
+}
+
+.link33:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXIV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXIVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BOLA-RUGBY-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXIVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXIV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link34 {
+	text-decoration: none;
+}
+
+.link34:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BOLA-GOLF-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link35 {
+	text-decoration: none;
+}
+
+.link35:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXVI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXVIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(COCK-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXVIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXVI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link36 {
+	text-decoration: none;
+}
+
+.link36:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXVII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.XXXVIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(TV-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXVIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXVII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link37 {
+	text-decoration: none;
+}
+
+.link37:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXVIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXVIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KURSI-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXVIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXVIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link38 {
+	text-decoration: none;
+}
+
+.link38:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXIX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXIXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BALON-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXIXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXIX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link39 {
+	text-decoration: none;
+}
+
+.link39:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(AIRPOD-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link40 {
+	text-decoration: none;
+}
+
+.link40:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXXI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXXIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(GELAS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXXIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXXI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link41 {
+	text-decoration: none;
+}
+
+.link41:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXXII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXXIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(HP-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXXIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXXII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link42 {
+	text-decoration: none;
+}
+
+.link42:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXXIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.XXXXIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(OBAT-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXXIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXXIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link43 {
+	text-decoration: none;
+}
+
+.link43:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXXIV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXXIVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(PION-CATUR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXXIVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXXIV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link44 {
+	text-decoration: none;
+}
+
+.link44:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXXV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXXVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(TAS-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXXVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXXV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link45 {
+	text-decoration: none;
+}
+
+.link45:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXXVI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXXVIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(TELEPHONE-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXXVIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXXVI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link46 {
+	text-decoration: none;
+}
+
+.link46:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXXVII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXXVIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(ALARM-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXXVIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXXVII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link47 {
+	text-decoration: none;
+}
+
+.link47:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XXXXVIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XXXXVIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KAMERA-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XXXXVIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XXXXVIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link48 {
+	text-decoration: none;
+}
+
+.link48:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.Makanann {
+	color: gray;
+	text-decoration: none;
+}
+
+.Pakaiann {
+	color: gray;
+	text-decoration: none;
+}
+
+.Olahragaa {
+	color: gray;
+	text-decoration: none;
+}
+
+.Naturee {
+	color: gray;
+	text-decoration: none;
+}
+

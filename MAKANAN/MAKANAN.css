@@ -1,0 +1,588 @@
+body {
+  margin: 0;
+  height: 97vh;
+  background-image: linear-gradient(21deg, rgba(64, 83, 206, 0.3697003234675773) 68%, rgba(255, 206, 196, 0.5) 163%),linear-gradient(163deg, rgba(49, 146, 170, 0.07944489965716128) 86%, rgba(239, 112, 138, 0.5) 40%),linear-gradient(30deg, rgba(76, 79, 173, 0.6173675716587805) 22%, rgba(237, 106, 134, 0.5) 169%),linear-gradient(48deg, rgba(31, 85, 147, 0.7323890641868473) 64%, rgba(247, 126, 132, 0.5) 43%); background-blend-mode: overlay,multiply,color,normal;
+  font-family: roboto;
+}
+
+.container {
+	width: 1245px;
+	height: 545px;
+	background-color: white;
+	margin: 20px auto;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.20);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.70);
+	max-width: 1245px;
+	display: flex;
+}
+
+.right {
+	flex: 1 1 auto;
+	background-color: #f2ebf5;
+	padding: 30px;
+	border-radius: 0 3px 3px 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.left {
+	flex: 0 0 200px;
+	width: 150px;
+	height: 100%;
+	background-color: white;
+	border-radius: 3px 0 0 3px;
+}
+
+img {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.satu {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+	color: gray;
+}
+
+i {
+	margin-left: -15px;
+	font-size: 18px;
+	color: gray;
+}
+
+ul {
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+	font-weight: bold;
+	color: gray;           
+	list-style-type: none;
+}
+
+.Makanan {
+	color: purple;
+}
+
+.Pakaian, .Beranda, .Olahraga, .Nature {
+	transition: 0.3s;
+}
+
+.Pakaian:hover {
+	color: purple;
+}
+
+.Beranda:hover {
+	color: purple;
+}
+
+.Olahraga:hover {
+	color: purple;
+}
+
+.Nature:hover {
+	color: purple;
+}
+
+.dua {
+	color: gray;
+}
+
+.tiga {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.dua {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.I {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+}
+
+.Ia {
+	width: 150px;
+	height: 150px;
+	background-image: url(BATAGOR.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.Ib {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.I:hover {
+	transform: scale(1.0);
+}
+
+.link {
+	text-decoration: none;
+}
+
+.link:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.I {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 18px;
+	position: absolute;
+}
+
+.Ia {
+	width: 150px;
+	height: 150px;
+	background-image: url(BATAGOR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.Ib {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.I:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link1 {
+	text-decoration: none;
+}
+
+.link1:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.II {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.IIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(AYAM-BAKAR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.IIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.II:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link2 {
+	text-decoration: none;
+}
+
+.link2:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.III {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+
+}
+
+.IIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(SAMOSA-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.IIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.III:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link3 {
+	text-decoration: none;
+}
+
+.link3:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.IV {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.IVa {
+	width: 150px;
+	height: 150px;
+	background-image: url(KARI-AYAM-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.IVb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.IV:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link4 {
+	text-decoration: none;
+}
+
+.link4:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.V {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.Va {
+	width: 150px;
+	height: 150px;
+	background-image: url(BURGER-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.Vb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.V:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link5 {
+	text-decoration: none;
+}
+
+.link5:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.VI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	display: flex;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.VIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(JERUK-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.VIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.VI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link6 {
+	text-decoration: none;
+}
+
+.link6:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.VII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: -800px;
+	position: absolute;
+	display: flex;
+	margin-top: 210px;
+}
+
+.VIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(OMELET-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.VIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.VII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link7 {
+	text-decoration: none;
+}
+
+.link7:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.VIII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.VIIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(NASGOR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.VIIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.VIII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link8 {
+	text-decoration: none;
+}
+
+.link8:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.IX {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.IXa {
+	width: 150px;
+	height: 150px;
+	background-image: url(BAKSO-BAKAR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.IXb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.IX:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link9 {
+	text-decoration: none;
+}
+
+.link9:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.X {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.Xa {
+	width: 150px;
+	height: 150px;
+	background-image: url(WAFFLE-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.Xb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.X:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link10 {
+	text-decoration: none;
+}
+
+.link10:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XI {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(ROTI-TELUR-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XI:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link11 {
+	text-decoration: none;
+}
+
+.link11:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.XII {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: 0.5s;
+	margin-left: 160px;
+	position: absolute;
+	display: flex;
+}
+
+.XIIa {
+	width: 150px;
+	height: 150px;
+	background-image: url(DONAT-SMALL.jpg);
+	border-radius: 5px 5px 0px 0px;
+}
+
+.XIIb {
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.XII:hover {
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.link12 {
+	text-decoration: none;
+}
+
+.link12:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.Berandaa {
+	color: gray;
+	text-decoration: none;
+}
+
+.Pakaiann {
+	color: gray;
+	text-decoration: none;
+}
+
+.Olahragaa {
+	color: gray;
+	text-decoration: none;
+}
+
+.Naturee {
+	color: gray;
+	text-decoration: none;
+}
